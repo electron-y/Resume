@@ -1,1 +1,0 @@
-# yankhomych.github.io
