@@ -9,7 +9,7 @@ h1{
 
 body{
 	background-image: url(image/1.jpg);
-	
+
 }
 
 em{
@@ -17,12 +17,12 @@ em{
 }
 
 img{
-	width: 390px; 
+	width: 390px;
 	border-radius: 50px;
 	float: right;
 	transform:scale(1);
 	transition:2s all;
-	
+
 }
 
 img:hover{
@@ -43,4 +43,11 @@ img:hover{
 
 .fr{
 	border-bottom: 2px solid maroon;
+}
+
+iframe{
+	width:1300px;
+	height:450px;
+	border:0;
+
 }
