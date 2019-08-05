@@ -44,8 +44,7 @@ img:hover{
 .fr{
 	border-bottom: 2px solid maroon;
 }
-
-iframe{
+.map{
 	width:1300px;
 	height:450px;
 	border:0;
