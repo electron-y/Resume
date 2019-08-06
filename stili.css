@@ -3,6 +3,10 @@ a{
 	text-align: left;
 }
 
+.socnet{
+	font-size: 16px;
+}
+
 span{
 	font-size: 14px;
 }
@@ -35,7 +39,7 @@ em{
 }
 
 img{
-	width: 370px;
+	width: 390px;
 	border-radius: 50px;
 	float: right;
 	transform:scale(1);
