@@ -29,8 +29,8 @@ body{
 
 }
 
-em{
-	opacity: 0.7;
+i{
+	opacity: 0.8;
 }
 
 img{
@@ -47,7 +47,12 @@ img:hover{
 }
 
 .map{
-	width:1080px;
-	height:450px;
-	border:0;
+	width: 1000px;
+	height: 500px;
+	border: 0;
+}
+
+.weather{
+	float: right;
+	width: 200px;
 }
