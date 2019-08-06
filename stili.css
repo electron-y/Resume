@@ -3,6 +3,24 @@ a{
 	text-align: left;
 }
 
+span{
+	font-size: 14px;
+}
+
+.size{
+	font-size: 16px;
+}
+
+hr{
+	border:none;
+	background:maroon;
+	height:2px;
+}
+
+b{
+	font-size: 20px;
+}
+
 h1{
 	text-align: left;
 }
@@ -17,7 +35,7 @@ em{
 }
 
 img{
-	width: 350px;
+	width: 370px;
 	border-radius: 50px;
 	float: right;
 	transform:scale(1);
@@ -29,24 +47,8 @@ img:hover{
 	transform:rotate(45deg) scale(2);
 }
 
-.pystaya{
-	border-bottom: 2px solid maroon;
-}
-
-.vt{
-	border-bottom: 2px solid maroon;
-}
-
-.tr{
-	border-bottom: 2px solid maroon;
-}
-
-.fr{
-	border-bottom: 2px solid maroon;
-}
 .map{
 	width:1300px;
 	height:450px;
 	border:0;
-
 }
