@@ -5,7 +5,7 @@
 
 audio{
 	background-color: #e9f7f6;
-	width: 1260px;
+	width: 1252px;
 	height: 35px;
 	border-radius: 5px;
 	opacity: 0.55;
@@ -18,12 +18,24 @@ audio{
 	width: 520px;
 	border-radius: 50px;
 	float: right;
-	transition:2s all;
+	transition: 2s all;
 	box-shadow: 1px 1px 5px #000000;
 }
 
 .my_photo:hover{
-	transform:rotate(45deg) scale(2);
+	transform: rotate(45deg) scale(2);
+}
+
+.certificates{
+	width: 400px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px #000000;
+	border: 1px solid #547587;
+	transition: 1.3s all;
+}
+
+.certificates:hover{
+	transform: translate(140px) scale(1.7);
 }
 
 .image_socnet{
@@ -158,11 +170,11 @@ input, textarea{
 	border: 5px solid #547587;
 	background-color: #bad5e3;
 	box-shadow: 5px 5px 14px #000000;
-	transition: 1.5s all;
+	transition: 1.3s all;
 }
 
 .weather:hover{
-	transform: rotate(30deg) scale(1.5);
+	transform: rotate(20deg) scale(1.5);
 }
 
 .lang{
