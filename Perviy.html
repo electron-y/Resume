@@ -6,8 +6,7 @@
 		<title>Resume</title>
 		<link rel="shortcut icon" href="image/7.png" type="image/png">
 		<link href="stili.css" rel="stylesheet" type="text/css"/>
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="script.js"></script>
+
 		<link href="media-queries.css" rel="stylesheet" type="text/css">
 	</head>
 
@@ -137,13 +136,18 @@
 		<div class="borform">
 			<form>
 				<h2>For feedback</h2>
-				<input maxlength="30" name="name" placeholder="Name" type="text" required/></br>
-				<input maxlength="50" name="email" placeholder="Email" type="email" required/></br>
-				<textarea maxlength="255" name="message" placeholder="Message" required></textarea></br>
-				<input type="submit" value="SEND" class="submit"/>
+				<input maxlength="30" id="name" name="name" placeholder="Name" type="text"/></br>
+				<input maxlength="50" id="email" name="email" placeholder="Email" type="email"/></br>
+				<textarea maxlength="255" id="message" name="message" placeholder="Message"></textarea></br>
+				<button type="button" id="sendMail" class="button">SEND</button>
 			</form>
 		</div>
+		<div id="errorMess"></div>
 		<div class="clear"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!--<script type="text/javascript" src="jquery.js"></script>-->
+		<script src="script.js"></script>
 
 	</body>
 
