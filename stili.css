@@ -11,6 +11,7 @@ audio{
 	box-shadow: 2px 2px 10px #000000;
 	border: 1px solid #ccdedd;
 	margin-left: 23px;
+	display: block;
 }
 
 .my_photo{
@@ -105,7 +106,7 @@ progress::-moz-progress-ber{
 
 .lang{
 	float: left;
-	width: 500px;
+	width: 340px;
 	height: 205px;
 }
 
@@ -132,11 +133,12 @@ progress::-moz-progress-ber{
 
 .bormap{
 	float: left;
+	display: block;
 }
 
 .map{
 	padding: 1px;
-	width: 638px;
+	width: 655px;
 	height: 430px;
 	border: 1px solid #547587;
 	background-color: #6c9fba;
@@ -153,6 +155,7 @@ progress::-moz-progress-ber{
 	border-radius: 20px;
 	color: #ffffff;
 	box-shadow: 2px 2px 10px #000000;
+	display: block;
 }
 
 h2{
@@ -185,7 +188,7 @@ input, textarea{
 	background-color: #efefef;
 	color: #2b2828;
 	border-radius: 5px;
-	width: 618px;
+	width: 635px;
 }
 
 .clear{

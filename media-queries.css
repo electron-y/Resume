@@ -1,0 +1,84 @@
+@media screen and (max-width: 1365px){
+	.borform{
+		width: 500px;
+    }
+    audio{
+        width: 95%;
+        height: 35px;
+    }
+    .bormap, .map{
+        width: 500px;
+    }
+    input, textarea{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+	.borform{
+		width: 400px;
+    }
+    audio{
+        width: 95%;
+        height: 35px;
+    }
+    .bormap, .map{
+        width: 400px;
+    }
+    input, textarea{
+        width: 380px;
+    }
+    .certificates:hover{
+        transform: translate(140px) scale(1.6);
+    }
+}
+
+@media screen and (max-width: 900px){
+	.borform{
+		width: 300px;
+    }
+    audio{
+        width: 95%;
+        height: 35px;
+    }
+    .bormap, .map{
+        width: 300px;
+    }
+    input, textarea{
+        width: 280px;
+    }
+    .weather{
+        width: 180px;
+    }
+    .certificates:hover{
+        transform: translate(140px) scale(1.4);
+    }
+}
+
+@media screen and (max-width: 800px){
+	.borform{
+        width: 250px;
+        float: none;
+        margin: 0;
+        
+    }
+    audio{
+        width: 95%;
+        height: 35px;
+    }
+    .bormap, .map{
+        width: 250px;
+        float: none;
+        margin: 0;
+    }
+    input, textarea{
+        width: 230px;
+        float: none;
+    }
+    .weather{
+        width: 100px;
+    }
+    .certificates:hover{
+        transform: translate(140px) scale(1.3);
+    }
+}
