@@ -1,3 +1,3 @@
-# Всем привет!
+# Greeting!
 
-Я создал этот репозиторий для того чтобы выложить свое резюме, а также для его улучшения!
+I have created this repository for sharing my resume.
